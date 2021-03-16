@@ -8,7 +8,7 @@ def get_phonematch(db: Session):
 
 
 def get_phonematch_by_number(db: Session, number: str):
-    return db.query(models.DidPhoneMatch).filter(number=number).first()
+    return db.query(models.DidPhoneMatch).filter(did_number=number).first()
 
 
 def create_phonematch(db: Session, phonematch: schemas.DidPhoneMatchCreate):

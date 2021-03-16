@@ -43,13 +43,12 @@ def read_phonematch(db: Session = Depends(get_db)):
 def create_phonematch(phonematch: schemas.DidPhoneMatchCreate, db: Session = Depends(get_db)):
     try:
         return crud.create_phonematch(db, phonematch=phonematch)
-    except IntegrityError as err:
+    except IntegrityError:
         raise HTTPException(status_code=400, detail='Key (did_number)=(string) already exists.')
 
 
 @app.post("/report")
 async def create_docs(asterisk_item: schemas.AsteriskItem, settings_cash: settings = Depends(get_settings)):
-    print(settings_cash.CREDENTIALS_FILE)
     now = datetime.datetime.strptime(asterisk_item.called_datetime, "%Y-%m-%d %H:%M:%S")
     called_date = datetime.date.strftime(now, "%d.%m.%Y")
     called_time = datetime.date.strftime(now, "%H:%M:%S")
@@ -69,11 +68,12 @@ async def create_docs(asterisk_item: schemas.AsteriskItem, settings_cash: settin
     if not wait_time:
         wait_time = 0
 
+    wait_time = int(wait_time)
+    talk_time = int(talk_time)
+
     if talk_time > 0:
         disposition = "ANSWERED"
 
-    wait_time = int(wait_time)
-    talk_time = int(talk_time)
     called_num = "".join(i for i in called_num if i.isdigit())
 
     who_hungup = "..."
