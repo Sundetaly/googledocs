@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ncrm-180412",
+  "private_key_id": "ba1526b422a3182e12e9176281f1d9b5219640b0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCoP62vtw7AEUrY\nWVvkNoFxzpEZzVHS5mz8UdGQVZh+suDPB2R/jAbmXVhqAU5TR1HPzu7V7N7wIQEb\nIRGe1XKnU3NA4YYrFJ5An9LtrG/GXbEpoFdAdoemRueDXMZiscy687mm+gIV4SEG\neTHHb9PqPU4fbNwwA/EJmRo7r35GxnBgdLsNuiht5nWoLUhRRcSllUuat6uZHOEa\nP8LpaY7Q7oMyOEI8LuZ0Y1epozQOajktwA6QOEuR+pkQzLoWPFfZ/rDOKxgh/OmI\n1OrZA0/JDYGeYf1NzjVCxMIt34DCyUYIz76NUZu6mVo4t+Za7sxCEZ+h3/ggpGKt\nxHR2NBTFAgMBAAECggEAEMc042J+cpHm5FdY7hOvafF/D9MlV0JKWQkxvFKE4BGn\nkI28rGmC4KMrZ3rU3EIu+um4cJXsD4dDDHkKQEwp4FzWkABNeGtYcrpddv0sslvy\niGOof9GyKldEzBlK4Vm4wGYAvBGPdq4aNIKOf8R7ng7aBRE+jf0+osXlU1FnZthG\nxPlk3vQVhg70acDDa+0G4Xc2jmUDTbI9vSBOOlTdkFgBZFaTX4gDWWFA91PURj4u\n3FtLdIv/5WibEivMEJQE66AeoWOK+IWLiXjqloYXGcHVntSWTmhvehzwG3ZCtIXU\nNK0cePE8+/HTbBsJMFt+5hB1fxXq3wDEdTGTc7kNSwKBgQDQaPji/AOHXL7pvx5j\n/N2fhX150mBIjPN9JBr+ZVMw/gfoWVQv/lVhX/c3OmvVUZb6grd6M+nES52knfmG\nIYLvHmt8RfS7rnaSeL+3uzZEAyajTtojVwXGlAccS3x2/saiIaO5zQEqlgE0KdzO\ncMg3/nxd+Z9Josr2o/X+wZgDwwKBgQDOqv8hcR2IDQra6NX4VqlBF/EeM0tQh/p8\ncshys9834Prd0M2tS2g+L14mF2dUoPT3eUzchOiv1vYr+1IHRF/icy+fkM2z263S\nZBsSqnS2EtXpi9NoBESMlmZJ6lz/0yYAnqyXK0z6bdTUSrrYKyWwEqUUPLF+r9hi\nspd1XGCk1wKBgAcXa1Cd7qjOeRiPDkOsuQXSjwB0Lh6J3Ucm0VxSqlACdNZtI7Y2\nW0Vi9JCGhmDN0+tWQ1P/LDcns4eEcJcl0MS+Lj4eS0OPni1BupRP5HrP+KKZ7kZB\nkcq+ArftwaBy7uNZba7G0QFX9VaHDiJgKA/vst+nvMnOpkVaMuamQ7vtAoGBAI3s\npBSFJ7CctE2tA/PtH4KSPIVu2FPPbdc0xC7xE2O+XskhcX2GgWnjAZbLD6zwdAnX\nBU+S/nBzAM8nYieXbvmF/LhpqrnPLMmE8YqaAFhhCwG9gkq2U5TwXAJ6ra8Jg9l9\nHi0aEV0RO80mHLYCu3j09OS24XWMsN7molh4Pe41AoGBAI3SxKYckOdRpW1mM66T\n9XjlnqPDskUGs0M0mKYFcsFKSKJO/n+hzlFGuhUoaGECR675gZKYQHJXptdLQyZ7\n46rvPKHJQG+mbFURYpfz2rgGQJre/k4dRJZ+WZM8zWXH7btRhloYzm7njXxRHZti\ne1qSgJdKoe56sIlg637Rz3mE\n-----END PRIVATE KEY-----\n",
+  "client_email": "asterisk-excel@ncrm-180412.iam.gserviceaccount.com",
+  "client_id": "104513033186925203911",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/asterisk-excel%40ncrm-180412.iam.gserviceaccount.com"
+}
