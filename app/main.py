@@ -9,7 +9,6 @@ from sqlalchemy.orm import Session
 from functools import lru_cache
 
 from config import settings
-from schemas import AsteriskItem
 from database import engine, SessionLocal
 import crud, models, schemas
 
@@ -42,7 +41,7 @@ def create_phonematch(phonematch: schemas.DidPhoneMatchCreate, db: Session = Dep
 
 
 @app.post("/report")
-async def create_docs(asterisk_item: AsteriskItem, settings_cash: settings = Depends(get_settings)):
+async def create_docs(asterisk_item: schemas.AsteriskItem, settings_cash: settings = Depends(get_settings)):
     print(settings_cash.CREDENTIALS_FILE)
     now = datetime.datetime(asterisk_item.called_datetime, "%Y-%m-%d %H:%M:%S")
     called_date = datetime.date.strftime(now, "%d.%m.%Y")
