@@ -8,6 +8,7 @@ class AsteriskItem(BaseModel):
     did: str
     dst: str
     called_num: str
+    called_name: str
     wait_time: Optional[str] = None
     talk_time: Optional[str] = None
     disposition: str
